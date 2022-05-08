@@ -1,0 +1,79 @@
+/********Header, h2, h3, h4 et font-family = @google_font***********/
+/********Nav et Listes à puces**********/
+/********Body, p***********/
+/********Tableau et Formulaire*********/
+/********div, id#, .class************/
+/********Footer, icons, font-awesome************/
+
+/********** font-family = @google_font ********/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200&display=swap'); /* Je suis une 'police' importer du site Google fonts */
+
+
+
+/****** Header, em *****/
+header {
+    margin: 105px 0px 10px 0px; 
+    padding: 5px;
+    font-size: 1.3rem;
+    font-family: 'poppins', sans-serif;
+    background: rgb(255, 181, 154);
+    border-radius: 8px 5px 3px 5px;
+    text-transform: uppercase;
+    text-decoration: underline rgba(29, 29, 29, 0.877);
+    color: rgba(22, 22, 22, 0.966);
+    text-shadow: 1px 2px 3px rgb(32, 32, 32);
+}
+em {
+    padding: 5px;
+    font-size: 1.3rem;
+    font-family: 'poppins', sans-serif;
+    background: rgb(255, 181, 154);
+    border-radius: 8px 5px 3px 5px;
+    text-transform: uppercase;
+    text-decoration: underline rgba(29, 29, 29, 0.877);
+    color: rgba(22, 22, 22, 0.966);
+    text-shadow: 1px 2px 3px rgb(32, 32, 32);
+}
+h2, h3, h4 {
+    padding: 5px;
+    font-size: 1.3rem;
+    font-family: 'poppins', sans-serif;
+    background: rgb(255, 181, 154);
+    border-radius: 8px 5px 3px 5px;
+    text-transform: uppercase;
+    text-decoration: underline rgba(29, 29, 29, 0.877);
+    color: rgba(22, 22, 22, 0.966);
+    text-shadow: 1px 2px 3px rgb(32, 32, 32);
+}
+
+
+
+/********Nav et Listes à puces**********/
+nav {
+    margin: -35px 0px;
+    padding: 5px;
+    font-size: 1.2rem;
+    background: rgba(233, 177, 112, 0650);
+    position: fixed;
+    height: 15vh;
+    width: 1550px;
+    opacity: 0.7;
+    border-radius: 8px;
+    box-shadow: 2px 3px 1px rgba(231, 177, 112, 0.89);
+}
+ul {
+    padding: 0px 10px;
+    list-style-type: none;
+}
+
+
+/* *******Body********** */
+body {
+    margin: auto;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-family: 'open sans', cursive;
+    text-align: justify;
+
+}
+
